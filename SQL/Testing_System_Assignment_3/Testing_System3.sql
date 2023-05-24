@@ -1,30 +1,29 @@
+
 USE TestingSystem2;
 -- Question1
 
 
 -- Question2
 SELECT * 
-FROM Department;
+FROM Department; 
 
 -- Question3
-SELECT DepartmentID
-FROM Department
-WHERE DepartmentName = 'Sale';
+SELECT 	DepartmentID
+FROM 	Department
+WHERE 	DepartmentName = 'Sale';
 
 -- Question4
-SELECT 
-	*
-FROM `Account`
+SELECT 	*
+FROM 	`Account`
 ORDER BY length(FullName)  DESC
 LIMIT 1;
 
 -- Question5
-SELECT 
-	*
-FROM `Account`
-WHERE DepartmentID = 3
-ORDER BY length(FullName)  DESC
-LIMIT 1;
+SELECT 	*
+FROM  	`Account`
+WHERE 	DepartmentID = 3
+ORDER BY 	length(FullName)  DESC
+LIMIT 	1;
 
 -- Question6
 SELECT groupName
